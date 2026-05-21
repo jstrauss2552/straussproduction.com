@@ -30,8 +30,8 @@
   --muted-2:    rgba(242,239,232,0.45);
 
   /* type */
-  --f-serif:    "Fraunces", "Instrument Serif", Georgia, "Times New Roman", serif;
-  --f-display:  "Instrument Serif", "Fraunces", Georgia, serif;
+  --f-serif:    "Cormorant Garamond", "EB Garamond", Georgia, "Times New Roman", serif;
+  --f-display:  "Cormorant Garamond", "EB Garamond", Georgia, serif;
   --f-sans:     "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
 
   /* sizing */
@@ -370,10 +370,10 @@ input, textarea, select, button { font: inherit; color: inherit; }
 
 .hero-title {
   font-family: var(--f-serif);
-  font-weight: 350;
-  font-size: clamp(48px, 8vw, 122px);
-  line-height: 0.98;
-  letter-spacing: -0.035em;
+  font-weight: 400;
+  font-size: clamp(48px, 8vw, 130px);
+  line-height: 1;
+  letter-spacing: -0.022em;
   color: var(--white);
   margin-bottom: 36px;
 }
@@ -1191,10 +1191,10 @@ input, textarea, select, button { font: inherit; color: inherit; }
 
 .page-title {
   font-family: var(--f-serif);
-  font-weight: 350;
-  font-size: clamp(48px, 8vw, 112px);
-  line-height: 0.98;
-  letter-spacing: -0.035em;
+  font-weight: 400;
+  font-size: clamp(48px, 8vw, 120px);
+  line-height: 1;
+  letter-spacing: -0.022em;
   color: var(--white);
   margin-bottom: 24px;
   max-width: 16ch;
@@ -1520,9 +1520,9 @@ input, textarea, select, button { font: inherit; color: inherit; }
   padding: 120px var(--pad);
 }
 .notfound h1 {
-  font-family: var(--f-serif); font-weight: 350;
+  font-family: var(--f-serif); font-weight: 400;
   font-size: clamp(80px, 18vw, 220px); line-height: 0.9;
-  letter-spacing: -0.04em;
+  letter-spacing: -0.025em;
   color: var(--white);
 }
 .notfound h1 em { font-family: var(--f-display); font-style: italic; color: var(--champagne); }
